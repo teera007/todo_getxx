@@ -61,6 +61,7 @@ class RegisterView extends StatelessWidget {
                   emailController.text,
                   passwordController.text,
                 );
+                Get.back();
               },
               child: const Text('สมัครสมาชิก'),
             ),
